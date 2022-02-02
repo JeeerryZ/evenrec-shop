@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+        <title>Tabela de preços</title>
+</head>
+<body class="bg-gradient-to-r from-[#D9AFD9] to-[#97D9E1]" style="font-family: Roboto;">
+
+
+    <div class="bg-[#a3c3d9] w-48 h-16 mx-auto mt-4 rounded-xl drop-shadow-2xl border border-slate-400">
+    <h1 class="select-none text-center py-4 text-xl text-black-400 font-normal">Tabela de Preços</h1>
+    </div>
+
+    <div class="gap-x-1 max-h-sm absolute top-5 left-5 flex items-center bg-[#a3c3d9] pr-5 p-3 rounded-xl drop-shadow-xl opacity-95">
+        <img class="animate-bounce w-8 h-8 " src="assets/BCOIN.png" alt="bcoin logo">
+        <span id="bcoin-price" class="text-gray-700 text-left text-lg font-semibold"></span>
+    </div>
+    
+    
+
+    <ul class="mt-24 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-x-4 xl:gap-x-24 gap-y-12 place-items-center mx-12 xl:mx-36">
+        <li id="li1" class="bg-[#97D9E1] size p-4 rounded-xl drop-shadow-xl max-w-m transition-transform duration-200 hover:scale-105">
+            <h1 class="text-2xl font-bold text-center">Produção Completa</h1>
+            <div class="bg-gray-600 w-32 mx-auto h-1 opacity-50 rounded m-8"></div> <!-- Divisor -->
+            <div class="flex flex-col items-center gap-4 w-64">
+                <ul class="flex flex-col gap-3">
+               <li class="flex items-center gap-3 w-48">
+                   <img class="w-6 h-6" src="assets/V1.png">
+                   <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+               </li>
+               <li class="flex items-center gap-3 w-48">
+                <img class="w-6 h-6" src="assets/V1.png">
+                <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+            </li>
+            <li class="flex items-center gap-3 w-48">
+                <img class="w-6 h-6" src="assets/V1.png">
+                <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+            </li>
+            <li class="flex items-center gap-3 w-48">
+                <img class="w-6 h-6" src="assets/V1.png">
+                <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+            </li>
+            </ul>
+            <span class="text-sm text-center p-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+            </span>
+            <div class="flex items-center">
+                <span class="pb-1 text-4xl font-bold">13,85</span>
+                <img class="w-16" src="assets/BCOIN.png">
+            </div>
+            <div class="-mt-6 flex items-center">
+                <span class="pb-1 text-3xl font-bold">13,85</span>
+                <img class="w-12" src="assets/BTC.png">
+            </div>
+            <button id="bt1" class="drop-shadow-2xl border-2 rounded-lg py-2 px-6 border-gray-400 text-black select-none
+            text-md font-semibold transition hover:bg-gray-400 mb-2">
+                Comprar
+            </button>
+            
+
+
+        </div>
+        </li>
+        <li id="li2" class="bg-[#97D9E1] sm:bg-[#D9AFD9] xl:bg-[#97D9E1] size p-4 rounded-xl drop-shadow-xl max-w-m transition-transform duration-200 hover:scale-105">
+            <h1 class="text-2xl font-bold text-center">Licensa Beat</h1>
+            <div class="bg-gray-600 w-32 mx-auto h-1 opacity-50 rounded m-8"></div> <!-- Divisor -->
+            <div class="flex flex-col items-center gap-4 w-64">
+                <ul class="flex flex-col gap-3">
+               <li class="flex items-center gap-3 w-48">
+                   <img class="w-6 h-6" src="assets/V1.png">
+                   <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+               </li>
+               <li class="flex items-center gap-3 w-48">
+                <img class="w-6 h-6" src="assets/V1.png">
+                <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+            </li>
+            <li class="flex items-center gap-3 w-48">
+                <img class="w-6 h-6" src="assets/V1.png">
+                <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+            </li>
+            <li class="flex items-center gap-3 w-48">
+                <img class="w-6 h-6" src="assets/V1.png">
+                <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+            </li>
+            </ul>
+            <span class="text-sm text-center p-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+            </span>
+            <div class="flex items-center">
+                <span class="pb-1 text-4xl font-bold">13,85</span>
+                <img class="w-16" src="assets/BCOIN.png">
+            </div>
+            <div class="-mt-6 flex items-center">
+                <span class="pb-1 text-3xl font-bold">13,85</span>
+                <img class="w-12" src="assets/BTC.png">
+            </div>
+            <button id="bt2" class="drop-shadow-2xl border-2 rounded-lg py-2 px-6 border-gray-400 text-black select-none
+            text-md font-semibold transition hover:bg-gray-400 mb-2">
+                Comprar
+            </button>
+        </div>
+        </li>
+        <li id="li3" class="bg-[#97D9E1] xl:bg-[#D9AFD9] size p-4 rounded-xl drop-shadow-xl max-w-m transition-transform duration-200 hover:scale-105">
+            <h1 class="text-2xl font-bold text-center">Mix e Master</h1>
+            <div class="bg-gray-600 w-32 mx-auto h-1 opacity-50 rounded m-8"></div> <!-- Divisor -->
+            <div class="flex flex-col items-center gap-4 w-64">
+                <ul class="flex flex-col gap-3">
+               <li class="flex items-center gap-3 w-48">
+                   <img class="w-6 h-6" src="assets/V1.png">
+                   <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+               </li>
+               <li class="flex items-center gap-3 w-48">
+                <img class="w-6 h-6" src="assets/V1.png">
+                <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+            </li>
+            <li class="flex items-center gap-3 w-48">
+                <img class="w-6 h-6" src="assets/V1.png">
+                <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+            </li>
+            <li class="flex items-center gap-3 w-48">
+                <img class="w-6 h-6" src="assets/V1.png">
+                <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+            </li>
+            </ul>
+            <span class="text-sm text-center p-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+            </span>
+            <div class="flex items-center">
+                <span class="pb-1 text-4xl font-bold">13,85</span>
+                <img class="w-16" src="assets/BCOIN.png">
+            </div>
+            <div class="-mt-6 flex items-center">
+                <span class="pb-1 text-3xl font-bold">13,85</span>
+                <img class="w-12" src="assets/BTC.png">
+            </div>
+            <button id="bt3" class="drop-shadow-2xl border-2 rounded-lg py-2 px-6 border-gray-400 text-black select-none
+            text-md font-semibold transition hover:bg-gray-400 mb-2">
+                Comprar
+            </button>
+        </div>
+        </li>
+        <li id="li4" class="bg-[#97D9E1] sm:bg-[#D9AFD9] size p-4 rounded-xl drop-shadow-xl max-w-m transition-transform duration-200 hover:scale-105">
+            <h1 class="text-2xl font-bold text-center">Captação de Voz</h1>
+            <div class="bg-gray-600 w-32 mx-auto h-1 opacity-50 rounded m-8"></div> <!-- Divisor -->
+            <div class="flex flex-col items-center gap-4 w-64">
+                <ul class="flex flex-col gap-3">
+               <li class="flex items-center gap-3 w-48">
+                   <img class="w-6 h-6" src="assets/V1.png">
+                   <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+               </li>
+               <li class="flex items-center gap-3 w-48">
+                <img class="w-6 h-6" src="assets/V1.png">
+                <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+            </li>
+            <li class="flex items-center gap-3 w-48">
+                <img class="w-6 h-6" src="assets/V1.png">
+                <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+            </li>
+            <li class="flex items-center gap-3 w-48">
+                <img class="w-6 h-6" src="assets/V1.png">
+                <p class="text-md font-light">Lorem ipsum dolor, sit amet consectetur</p>
+            </li>
+            </ul>
+            <span class="text-sm text-center p-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+            </span>
+            <div class="flex items-center">
+                <span class="pb-1 text-4xl font-bold">13,85</span>
+                <img class="w-16" src="assets/BCOIN.png">
+            </div>
+            <div class="-mt-6 flex items-center">
+                <span class="pb-1 text-3xl font-bold">13,85</span>
+                <img class="w-12" src="assets/BTC.png">
+            </div>
+            <button id="bt4" class="drop-shadow-2xl border-2 rounded-lg py-2 px-6 border-gray-400 text-black select-none
+            text-md font-semibold transition hover:bg-gray-400 mb-2">
+                Comprar
+            </button>
+        </div>
+        </li>
+    </ul>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</body>
+
+</html>
